@@ -9,6 +9,10 @@ public class MyServlet extends HttpServlet{
 	
 	
 	
+	
+	
+	
+	
 	public void doPost(HttpServletRequest req,  HttpServletResponse res)
 	{
 		int i = Integer.parseInt(req.getParameter("num1"));
